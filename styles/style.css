@@ -1,18 +1,18 @@
 @font-face {
     font-weight: normal;
     font-family: "Roboto";
-    src: url(fonts/Roboto/RobotoMono.ttf);
+    src: url(../fonts/Roboto/RobotoMono.ttf);
 }
 
 @font-face {
     font-weight: lighter;
     font-family: "Roboto";
-    src: url(fonts/Roboto/Roboto-Light.ttf);
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
 }
 
 @font-face {
     font-family: "gigachad";
-    src: url(fonts/inkpen/InknutAntiqua-Light.ttf);
+    src: url(../fonts/inkpen/InknutAntiqua-Light.ttf);
 }
 
 *{
