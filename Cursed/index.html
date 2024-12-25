@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/font-awesome-4.7.0/css/font-awesome.css" />
+    <link rel="shortcut icon" href="/imgs/favicon.png" type="image/x-icon">
+    <title>Peape</title>
+</head>
+<body>
+    <div id="popupContainer">
+    <div class="popup">
+        Ведётся тех. обслуживание функция не доступна
+    </div>
+</div>
+
+    <div class="modal" id="myModal">
+        <div class="modalContent">
+        <div class="textx">
+            <div></div>
+            <p class="textx">Авторизация </p>
+            <span class="close">&times;</span>
+        </div>
+        <input type="text" placeholder="Логин" class="myInput">
+        <input type="text" placeholder="Пароль" class="myInput">
+        <div class="buttons">
+            <button class="Fakebutton">Зарегистрироваться</button>
+            <button class="Fakebutton">Забыли пароль</button>
+        </div>
+        <button class="Fakebutton clearButton">Вход</button>
+    </div>
+    </div>
+    <header>
+        <div class="cont">
+        <div class="headerText">
+            <p class="Zag">Peapa<span><i class="fa fa-spinner" aria-hidden="true"></i></span></p>
+            <ul>
+                <li><select class="Fakebutton"><option value="Перевозка">Перевозка</option></select></li>
+                <li><select class="Fakebutton"><option value="">Отслеживание</option></select></li>
+                <li><select class="Fakebutton"><option value="">Служба поддержки</option></select></li>
+            </ul>
+            <ul class="fuck">
+                <li class="speacial"><button id="openModalBtn">Аккаунт <span><i class="fa fa-user" aria-hidden="true"></i></span></button></li>
+                <li><input type="text" placeholder="Поиск"></li>
+            </ul>
+        </div>
+    </div>
+    </header>
+    <div class="banner">
+        <div class="cont">
+            <div class="slogan"><p>Ваши желания - наши заботы</p></div>
+            <div class="Buttons">
+                <button class="Bigbutton"><i class="fa fa-bars" aria-hidden="true"></i><br> Тарифы и сроки</button>
+                <button class=" Bigbutton"><i class="fa fa-globe" aria-hidden="true"></i><br> Отследить</button>
+                <button class="Bigbutton"><i class="fa fa-truck" aria-hidden="true"></i><br> Доставка</button>
+            </div>
+            <div class="func1">
+                <input type="text" class="myInput" placeholder="Индификатор посылки">
+                <button class="Fakebutton clearButton">Отследить</button>
+            </div>
+        </div>
+    </div>
+    <div class="workZone">
+        <div class="cont">
+            <div class="txet">Управление Отправлениями</div>
+            <div class="buttonsW">
+                <button data-index="0" class="aFakebutton slider-button"><i class="fa fa-bell-o" aria-hidden="true"></i><br>Уведомления</button>
+                <button data-index="1" class="aFakebutton slider-button"><i class="fa fa-archive" aria-hidden="true"></i><br>Заказать материалы</button>
+                <button data-index="2" class="aFakebutton slider-button"><i class="fa fa-id-card-o" aria-hidden="true"></i><br>Таможенные инструменты</button>
+                <button data-index="3" class="aFakebutton slider-button"><i class="fa fa-cog" aria-hidden="true"></i><br>Настройки отслеживания</button>
+                <button data-index="4" class="aFakebutton slider-button"><i class="fa fa-usd" aria-hidden="true"></i><br>Пошлины и налоги</button>
+            </div>
+            <!-- <div class="slider-controls">
+          <button class="slider-prev"> &lt; </button>
+          <button class="slider-next"> &gt; </button>
+        </div> -->
+        </div></div>
+    <div class="info">
+        <div class="cont">
+            <article>
+                <img src="/imgs/new1.png" alt="">
+                <div class="textblockNews"><p class="Zag">Последние новости</p>
+                <p>Последние новости, включая статьи о наших инновациях, объявления и многое другое.</p>
+                <button>Перейти к новостям</button></div>
+            </article>
+            <article>
+                <img src="/imgs/new2.png" alt="">
+                <div class="textblockNews"><p class="Zag">Отзывы и вопросы</p>
+                <p>Ваши отзывы на наши услуги. Раздел вопросов пользователей. Часто задаваемые вопросы.</p>
+                <button>Перейти к отзывам</button></div>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <div class="cont">
+            <div class="thingColumn"><ul>
+                <li class="mainLi">Наша компания</li>
+                <li><a href="/CompanyInfo.html">Больше о Peape</a></li>
+                <li><a href="/newPage.html">Новый клиент</a></li>
+                <li class="contct"><a href="https://weba.telegram.org/"><i class="fa fa-telegram" aria-hidden="true"></i></a><a href="https://vk.com"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                <li>+7 900 345 34-69</li>
+            </ul></div>
+            <div class="thingColumn"><ul>
+                <li class="mainLi">Язык</li></ul>
+                <select id="language" name="languag">
+                    <option value="index.html#language">Русский</option>
+                    <option value="English.html#language">English</option>
+                  </select>
+        </div>
+        </div>
+    </footer>
+    <div class="underFooter">
+        <p>© Peapa 2024 </p>
+        <ul>
+            <li><a href="/newPage.html" target="_blank">Карта сайта</a></li>
+            <li>|</li>
+            <li><a href="/newPage.html">Условия пользования</a></li>
+            <li>|</li>
+            <li><a href="/newPage.html">Политика конфиденциальности</a></li>
+        </ul>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

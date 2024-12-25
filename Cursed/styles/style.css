@@ -1,0 +1,514 @@
+@font-face {
+    font-weight: normal;
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/RobotoMono.ttf);
+}
+
+@font-face {
+    font-weight: lighter;
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "gigachad";
+    src: url(/fonts/inkpen/InknutAntiqua-Light.ttf);
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+p{
+    margin: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: translateY(1px);
+}
+
+.cont{
+    margin: 0 auto;
+    width: 80%;
+}
+
+header{
+    /* background-color: rgba(153, 240, 77, 1); */
+    background-image: linear-gradient(to right, rgba(153, 240, 77, 1),rgba(39, 77, 6, 1) );
+    padding: 0.5% 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    transition: top 0.3s ease;
+}
+
+header select{
+    color: white;
+    background: none;
+    border: 0;
+    outline: none;
+}
+
+header.sticky{
+    padding: 0.1% 0;
+    height: 2%;
+}
+
+.headerText{
+    font-size: 18px;
+    font-weight: lighter;
+    font-family:"Roboto";
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+.headerText button{
+    color: white;
+    background: none;
+    border: 0;
+}
+
+.Zag{
+    font-size: 40px;
+    font-family: "gigachad";
+    font-weight: lighter;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+header li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.fuck{
+    display: flex;
+}
+
+header input{
+    border: 1px solid white;
+    padding: 6px 70px 6px 2px;
+    outline: 0;
+    flex-shrink: 1;
+}
+
+.special{
+    flex-shrink: 0;
+}
+
+.banner{
+    background-image: url(/imgs/2024-12-14_21-56-47.png);
+    padding: 7% 0 3% 0;
+    background-size: cover;
+}
+
+.slogan{
+    font-family: "Roboto";
+    font-size: 70px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 70px ;
+    text-align: center;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: center ;
+    /* gap: 0%; */
+    
+}
+
+.Buttons button{
+    margin: 0 2%;
+    width: 25%;
+    padding: 5% 0;
+    border-radius: 30px;
+    border: 0;
+    background-image: linear-gradient(to bottom,rgba(50, 207, 239, 0.65),rgba(16, 44, 130, 0.79));
+    color: white;
+    font-size: 34px;
+    opacity: 0.8;
+}
+
+
+.Buttons button i{
+    font-size: 70px;
+}
+
+.func1{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+    padding: 0 9%;
+    gap: 0.2%;
+}
+
+.func1 input{
+    width: 70%;
+    padding: 2% 0 2% 1%;
+    border: 0;
+    outline: 0;
+}
+
+
+.func1 button{
+    width: 30%;
+    background-image: linear-gradient(to right, rgba(153, 240, 77, 1),rgb(54, 105, 9) );
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.buttonsW{
+    display: flex;
+    justify-content: space-between ;
+    gap: 0.7%;
+    margin-bottom: 10% ;
+}
+
+.txet{
+    font-size: 24px;
+    text-align: center;
+    margin: 4% 0;
+    display: flex;
+    justify-self: center;
+}
+
+.buttonsW button{
+    border-radius: 30px;
+    border: 0;
+    background-image: linear-gradient(to bottom,rgba(50, 207, 239, 0.65),rgba(16, 44, 130, 0.79));
+    color: white;
+    font-size: 24px;
+    padding: 7% 0%;
+    width: 18%;
+}
+
+.buttonsW i{
+    font-size: 60px;
+}
+
+
+
+article{
+    background-color: rgba(250, 250, 250, 1);
+    display: flex;
+    
+    margin: 5% 10%;
+    gap: 8%;
+
+}
+
+article img{
+    width: 35%;
+    margin: 0;
+    object-fit: contain;
+}
+
+article .Zag{
+    font-size: 30px;
+}
+
+.textblockNews{
+    margin: 0;
+    color: #343434;
+    font-size: 16;
+    display: flex;
+    flex-direction: column;
+}
+
+article button {
+    border: 5px solid rgba(100, 164, 44, 1);
+    border-radius: 50px;
+    padding: 10px;
+    background: none;
+    color: rgba(100, 164, 44, 1);
+    font-size: 20px;
+    font-weight: bold;
+    justify-items: center;
+    align-self: center;
+    margin-top: 25%;
+}
+
+footer{
+    background-color: #FAFAFA;
+    margin-top: 10%;
+    color:  #000000;
+}
+
+footer .cont{
+    display: flex;
+    align-content:flex-start ;
+    padding: 5% 0  10% 0;
+    
+}
+
+.thingColumn{
+    justify-self: center;
+    width: 10%;
+    height: 60%;
+}
+
+.thingColumn select{
+    margin-top: 10%;
+    background: none;
+    padding: 8% 20% 8% 4%;
+    font-weight: bold;
+    outline: 0;
+}
+
+footer li{
+    font-weight: normal;
+}
+
+footer a{
+    text-decoration: none;
+    color: #646464;
+}
+
+.mainLi{
+    color: rgba(100, 164, 44, 1);
+    font-size: medium;
+    font-weight: bold;
+    
+}
+
+
+
+
+.underFooter{
+    background-image: linear-gradient(to right, rgba(153, 240, 77, 1),rgba(39, 77, 6, 1) );
+    height: 3%;
+    display: flex;
+    justify-content:space-around ;
+    padding: 2% 0;
+    color: white;
+    text-decoration: none;
+}
+
+.contct{
+    font-size: 30px;
+}
+
+.contct a{
+    margin-right: 6px;
+}
+
+.underFooter li {
+    display: inline-block;
+    
+}
+
+.underFooter a{
+    color: white;
+    text-decoration: none;
+    margin: 0 4px;
+}
+
+.modal{
+    position: fixed;
+    display: none; 
+    justify-self: center;
+    align-items: center;
+    position: fixed; 
+    z-index: 11;
+    left: 1000;
+    top: 1000;
+    width: 100%; 
+    height: 100%; /* Полная высота */
+    overflow: auto; /* Включить прокрутку, если необходимо */
+    background-color: rgb(0,0,0); /* Цвет фона (резервный) */
+    background-color: rgba(0,0,0,0.4); /* Чёрный с прозрачностью */
+}
+
+.modalContent{
+    color: white;
+    background-image: linear-gradient(to bottom,rgba(50, 207, 239),rgba(16, 44, 130));
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    width: 30%;
+    height: 30%;
+    align-items: center;
+    padding: 1%;
+}
+
+.modalContent *{
+    margin-bottom: 2%;
+}
+
+.modalContent button{
+    background: none;
+    color: white;
+    padding: 2%;
+    border-radius: 40px;
+    border: 2px solid white ;
+    font-weight: bold;
+    margin-bottom: 0.4%;
+    width: 35%;
+}
+
+.textx{
+    display: grid;
+    grid-template-columns: 4fr 5fr 1fr;
+}
+
+.textx span{
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 0 5px;
+}
+
+
+.modalContent input{
+    width: 90%;
+    height: 30%;
+    outline: none;
+}
+.modalContent .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#popupContainer {
+    position: fixed; /* Контейнер остается фиксированным */
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column; /* Создаем столбец */
+    align-items: flex-end; /* Выравниваем по правому краю */
+}
+
+.popup{
+  margin-top: 5px;
+  bottom: 20px;
+  right: 5px;
+  z-index: 12;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  opacity: 0; /* Скрыто по умолчанию */
+  transform: translatey(20px); /* Изначально смещено вниз */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Плавная анимация */
+}
+
+.popup.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.popup.move-up {
+    animation: moveUp 0.5s ease-in-out forwards; /* Анимация подъема */
+}
+
+.popup.fade{
+    opacity: 0;
+    transform: translatex(20px);
+}
+
+@keyframes moveUp {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-40px); opacity: 0; } /* 40px - величина подъема */
+}
+
+.nofound{
+    margin: 10% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nofound i{
+    font-size: 200px;
+}
+
+.nofoundA{
+    margin-top: 3%;
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 2%;
+}
+
+.nofound a:active{
+    background-color: #8b8a8a;
+    border: 3px solid#333;
+    transform: translateY(2px);
+}
+
+.banner1{
+    background-image: url(/imgs/2024-12-25_16-20-37.png);
+    padding: 7% 0 3% 0;
+    background-size: cover;
+}
+
+.companyInf{
+    background-color: #FAFAFA;
+    border: 10px solid #cacaca;
+    width: 40%;
+    padding: 4%;
+    margin-bottom: 7%;
+    border-radius: 6px;
+}
+
+.companyInf p{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.companyInf span{
+    font-family: "gigachad" ;
+    margin: 0;
+}
+
+footer.companyInf1{
+    margin: 0;
+}
+
+.nofoundB{
+    display: flex;
+    justify-self: center;
+    background-color: #FAFAFA;
+    text-align: center;
+    margin: 3% 0;
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 2%;
+}
+
+.Bigbutton.active{
+    background-image: linear-gradient(to bottom,rgba(153, 239, 77,1),rgba(40, 79, 6, 1));
+
+}
+
+.slider-button.active{
+    border: 5px solid rgba(40, 79, 6, 1);
+}
+
+.slider-button{
+    flex: 0 0 auto;
+}
