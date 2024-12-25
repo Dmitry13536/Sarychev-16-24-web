@@ -48,7 +48,7 @@ window.onclick = function(event) {
 
 const buttons = document.getElementsByClassName('Fakebutton');
 const popupContainer = document.getElementById('popupContainer');
-const popupText = 'Ведётся тех. обслуживание функция не доступна';
+const popupText = document.querySelector('p.err').textContent;
 
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener('click', () => {
