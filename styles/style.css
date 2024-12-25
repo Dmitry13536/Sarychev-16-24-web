@@ -1,18 +1,18 @@
 @font-face {
     font-weight: normal;
     font-family: "Roboto";
-    src: url(fonts/Roboto/RobotoMono.ttf);
+    src: url(../fonts/Roboto/RobotoMono.ttf);
 }
 
 @font-face {
     font-weight: lighter;
     font-family: "Roboto";
-    src: url(fonts/Roboto/Roboto-Light.ttf);
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
 }
 
 @font-face {
     font-family: "gigachad";
-    src: url(fonts/inkpen/InknutAntiqua-Light.ttf);
+    src: url(../fonts/inkpen/InknutAntiqua-Light.ttf);
 }
 
 *{
@@ -109,7 +109,7 @@ header input{
 }
 
 .banner{
-    background-image: url(imgs/2024-12-14_21-56-47.png);
+    background-image: url(../imgs/2024-12-14_21-56-47.png);
     padding: 7% 0 3% 0;
     background-size: cover;
 }
@@ -455,7 +455,7 @@ footer a{
 }
 
 .banner1{
-    background-image: url(imgs/2024-12-25_16-20-37.png);
+    background-image: url(../imgs/2024-12-25_16-20-37.png);
     padding: 7% 0 3% 0;
     background-size: cover;
 }
